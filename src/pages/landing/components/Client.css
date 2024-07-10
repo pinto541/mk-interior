@@ -1,0 +1,22 @@
+.client-carousel-container {
+  padding: 20px;
+}
+
+.client-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.client-image {
+  width: 160px; /* Set a fixed width */
+  height: 140px; /* Set a fixed height */
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.location{
+  width: 100%;
+  height: 340px;
+}
