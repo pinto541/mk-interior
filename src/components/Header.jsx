@@ -88,7 +88,7 @@ function NavList() {
       </Typography>
 
       <div className="hidden lg:flex lg:items-center lg:gap-4">
-        <a href="tel:+919353093440">
+        <a href="tel:+91">
           <button className="bg-brown-800 text-white px-7 py-2 rounded-md hover:bg-black-600 transition-colors">
             Call Us
           </button>
