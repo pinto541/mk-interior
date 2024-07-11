@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import hero1 from "../../../assets/images/her1.jpeg";
-import hero2 from "../../../assets/images/her2.jpeg";
-import hero3 from "../../../assets/images/her3.jpeg";
-import herom1 from "../../../assets/images/her1.jpeg";
-import herom2 from "../../../assets/images/her2.jpeg";
-import herom3 from "../../../assets/images/her3.jpeg";
+import hero1 from "../../../assets/3.jpeg";
+import hero2 from "../../../assets/4.jpeg";
+import hero3 from "../../../assets/5.webp";
+import herom1 from "../../../assets/3.jpeg";
+import herom2 from "../../../assets/4.jpeg";
+import herom3 from "../../../assets/5.webp";
 import "./Hero.css";
 
 const Hero = () => {
@@ -63,16 +63,16 @@ const Hero = () => {
             </div>
             <div className="hero-content">
               <div className="hero-title animate-fadeIn ">
-                WELCOME TO DESIGN STUDIO
+                WELCOME TO MK INTERIOR POINT
               </div>
               <div className="hero-subtitle animate-fadeIn" >
                 Transforming Spaces, Elevating Lives
               </div>
               {isDesktop && (
                 <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-8">
-                  <button className="hero-button1">
+                  {/* <button className="hero-button1">
                     <Link to="/design">OUR SERVICES</Link>
-                  </button>
+                  </button> */}
                   <button className="hero-button bg-brown-800">
                     <Link to="/contact">CONTACT US</Link>
                   </button>

@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="text-center text-white md:px-40">
             <div className="flex lg:flex-row flex-col lg:items-start items-center justify-between md:space-x-20">
               <div className=" mb-5 lg:mb-0">
-                <h2 className="font-bold text-xl">DESIGN STUDIO</h2>
+                <h2 className="font-bold text-xl">MK INTERIOR POINT</h2>
                 <p className=" mt-2">40,  Yelahanka New Town,</p>
                 <p className=" mt-1">
                 Vidyaranyapura, Bengaluru-560097, Karnataka, India.

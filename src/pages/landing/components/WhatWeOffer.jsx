@@ -76,7 +76,7 @@ export default function WhatWeOffer() {
         </div>
       </div>
 
-      <div className="bg-brown-200 pb-16 -mt-20 rounded-3xl">
+      {/* <div className="bg-brown-200 pb-16 -mt-20 rounded-3xl">
         <div className="text-white pt-32 text-center">
           <div className="flex space-x-3 items-center justify-center">
             <div className="bg-brown-200 w-2 h-4 rounded-l-full"></div>
@@ -149,8 +149,8 @@ export default function WhatWeOffer() {
               ))}
             </div>
           )}
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </>
   );
 }
